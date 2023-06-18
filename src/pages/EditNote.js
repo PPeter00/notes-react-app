@@ -28,7 +28,7 @@ function EditNote({ notes, setNotes }) {
             })
             setNotes(newNotes);
 
-            navigate('/');
+            navigate('/notes-react-app');
         }
     }
     const handleDelete = (e) => {
